@@ -94,8 +94,8 @@ def main():
 
         script = script + [{"role": "assistant", "content": analysis}]
 
-        # wait for 5 seconds
-        time.sleep(5)
+        # wait for 20 seconds
+        time.sleep(20)
 
 
 if __name__ == "__main__":
